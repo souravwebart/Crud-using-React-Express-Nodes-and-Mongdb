@@ -1,8 +1,10 @@
 const mongoose = require('mongoose');
 
+const dotenv = require('dotenv');
+dotenv.config();
 
 
-const DB = "mongodb+srv://crud:crud@cluster0.46sdc.mongodb.net/MyCrud?retryWrites=true&w=majority"
+const DB = process.env.MONGOLAB_URI;
 
 mongoose.connect(DB, {
     useNewUrlParser: true,
