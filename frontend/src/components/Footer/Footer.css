@@ -1,0 +1,12 @@
+.footer {
+  background-color: black;
+}
+.footer-text {
+  justify-content: center;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #fff;
+  padding-top: 20px;
+}
